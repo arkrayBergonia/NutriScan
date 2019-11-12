@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1D3EBCA4237A52EE00C4843E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EBCA3237A52EE00C4843E /* AppDelegate.swift */; };
-		1D3EBCA6237A52EE00C4843E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EBCA5237A52EE00C4843E /* ViewController.swift */; };
+		1D3EBCA6237A52EE00C4843E /* FoodScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EBCA5237A52EE00C4843E /* FoodScanViewController.swift */; };
 		1D3EBCA9237A52EE00C4843E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EBCA7237A52EE00C4843E /* Main.storyboard */; };
 		1D3EBCAB237A52EF00C4843E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EBCAA237A52EF00C4843E /* Assets.xcassets */; };
 		1D3EBCAE237A52EF00C4843E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EBCAC237A52EF00C4843E /* LaunchScreen.storyboard */; };
+		1D3EBCB6237A571600C4843E /* JapFoodClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EBCB5237A571600C4843E /* JapFoodClassifier.mlmodel */; };
+		1D3EBCBA237A77D100C4843E /* JapFood49.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EBCB9237A77D100C4843E /* JapFood49.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D3EBCA0237A52EE00C4843E /* NutriSCAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriSCAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3EBCA3237A52EE00C4843E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D3EBCA5237A52EE00C4843E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D3EBCA5237A52EE00C4843E /* FoodScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScanViewController.swift; sourceTree = "<group>"; };
 		1D3EBCA8237A52EE00C4843E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D3EBCAA237A52EF00C4843E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3EBCAD237A52EF00C4843E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D3EBCAF237A52EF00C4843E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3EBCB5237A571600C4843E /* JapFoodClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = JapFoodClassifier.mlmodel; sourceTree = "<group>"; };
+		1D3EBCB9237A77D100C4843E /* JapFood49.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = JapFood49.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				1D3EBCA3237A52EE00C4843E /* AppDelegate.swift */,
-				1D3EBCA5237A52EE00C4843E /* ViewController.swift */,
+				1D3EBCA5237A52EE00C4843E /* FoodScanViewController.swift */,
+				1D3EBCB9237A77D100C4843E /* JapFood49.mlmodel */,
+				1D3EBCB5237A571600C4843E /* JapFoodClassifier.mlmodel */,
 				1D3EBCA7237A52EE00C4843E /* Main.storyboard */,
 				1D3EBCAA237A52EF00C4843E /* Assets.xcassets */,
 				1D3EBCAC237A52EF00C4843E /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D3EBCA6237A52EE00C4843E /* ViewController.swift in Sources */,
+				1D3EBCA6237A52EE00C4843E /* FoodScanViewController.swift in Sources */,
+				1D3EBCBA237A77D100C4843E /* JapFood49.mlmodel in Sources */,
 				1D3EBCA4237A52EE00C4843E /* AppDelegate.swift in Sources */,
+				1D3EBCB6237A571600C4843E /* JapFoodClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
