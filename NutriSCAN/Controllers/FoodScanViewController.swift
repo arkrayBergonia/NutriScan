@@ -15,6 +15,7 @@ class FoodScanViewController: UIViewController, UIImagePickerControllerDelegate,
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var classificationLabel: UILabel!
     @IBOutlet weak var labelStackView: UIStackView!
+    @IBOutlet weak var nutriStackView: UIStackView!
     
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
@@ -90,6 +91,7 @@ class FoodScanViewController: UIViewController, UIImagePickerControllerDelegate,
     
     func presentPhotoPicker(sourceType: UIImagePickerController.SourceType) {
         self.labelStackView.isHidden = true
+        self.nutriStackView.isHidden = false
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = sourceType
